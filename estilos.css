@@ -1,0 +1,94 @@
+
+body{
+  background-image: url(imagenes/paisaje.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header{
+  border: 29px solid;
+  border-image-source: url(imagenes/diamantes.png);
+  border-image-slice: 40;
+  border-image-repeat: stretch;
+  border-image-width: 30px;
+}
+
+#titulo{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 900;
+  font-style:normal;
+  text-align: center;
+  color: blue;
+  background-color: green;
+  margin: 50px;
+  padding: 50px;
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: yellow;
+  border-radius: 60px;
+
+  outline-style:groove;
+  outline-width: 10px;
+  outline-color: yellow;
+  outline-offset: 5px;
+
+  filter: blur(6px);
+
+}
+
+
+
+@font-face {
+  font-family: "arcade";
+  src: url(fuentes/Arcade.otf);
+}
+
+#subtitulo{
+  font-family: "arcade";
+  font-size: 25px;
+  text-align: center;
+  color:rgb(0, 247, 82);  
+  background-color: blueviolet;
+  padding: 50px;
+
+  box-shadow: rgb(0, 0, 255) 3px 3px 10px 20px;
+  
+  text-shadow: rgb(255, 0, 0) 5px 5px 5px;
+}
+
+
+.navegador{
+  font-size: 20px;
+  text-align: center;
+  text-decoration:none;
+  color: hsl(360, 100%, 50%);
+}
+
+#nav_principal{
+  text-align: center;
+}
+
+#articulo1{
+  text-align: justify;
+  font-family: 'Rubik', sans-serif;
+  text-indent: 20px;
+  word-spacing: 25px;
+  line-height: 50px;
+  width: 400px;
+  height: 200px;
+  overflow:scroll;
+}
+
+#articulo2{
+  margin: 20px;
+  padding: 5px;
+  color:white;
+}
+
+
+#diablos{
+  filter: grayscale(1);
+  transform: perspective(500px) rotate3d(0, 1, 0, 45deg);
+}
